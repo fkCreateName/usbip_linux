@@ -1,0 +1,24 @@
+autoscan: warning: missing AC_CHECK_FUNCS([rmdir]) wanted by: 
+	src/usbip_detach.c:67
+autoscan: warning: missing AC_CHECK_FUNCS([strtol]) wanted by: 
+	src/usbip_list.c:243
+	src/usbip_list.c:244
+autoscan: warning: missing AC_CHECK_HEADERS([limits.h]) wanted by: 
+	src/usbip_detach.c:22
+	src/usbip_attach.c:22
+autoscan: warning: missing AC_FUNC_FORK wanted by: 
+	src/usbipd.c:321
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	src/usbip_unbind.c:120
+autoscan: warning: missing AC_FUNC_STRNLEN wanted by: 
+	src/utils.c:38
+autoscan: warning: missing AC_HEADER_STDBOOL wanted by: 
+	src/usbip_list.c:154
+	src/usbip_list.c:162
+	src/usbip_list.c:168
+	src/usbip_list.c:194
+	src/usbip_list.c:281
+	src/usbip_list.c:281
+	src/usbip_list.c:296
+autoscan: warning: missing AC_TYPE_PID_T wanted by: 
+	src/usbipd.c:315
